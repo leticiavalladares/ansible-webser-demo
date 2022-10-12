@@ -10,11 +10,15 @@
       apt:
         name: apache2
         state: present
+#
+#    - name: Copy my index.html file to the webserver
+#      copy:
+#        src: "index.html"
+#        dest: "/var/www/html/"
 
-    - name: Copy my index.html file to the webserver
-      copy:
-        src: "index.html"
-        dest: "/var/www/html/"
+    - name: Copy template file to the webserver
+      template:
+        src: "mytemplates/index.html.j2"
 
     - name: Restart the apache2
       service:

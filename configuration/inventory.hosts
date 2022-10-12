@@ -1,7 +1,16 @@
-[webservers]
+[webservers_sand]
 3.127.98.132
+
+[webservers_lavender]
 3.75.178.32
+
+[webservers_rosemary]
 3.126.120.70
+
+[webservers:children]
+webservers_sand
+webservers_lavender
+webserver_rosemary
 
 # PRIVATE KEY
 # Username - ubuntu
