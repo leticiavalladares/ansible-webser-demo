@@ -1,2 +1,5 @@
 background_color: rgb(203, 203, 146)
 title_text: Sand Page
+things:
+  - "pencil"
+  - "scissors"

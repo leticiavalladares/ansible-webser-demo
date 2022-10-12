@@ -2,6 +2,10 @@
 # Ansible Demo
 [![Tf Ansible Demo](https://github.com/leticiavalladares/ansible-webser-demo/actions/workflows/deploy-infra.yaml/badge.svg)](https://github.com/leticiavalladares/ansible-webser-demo/actions/workflows/deploy-infra.yaml)
 
+## Web pages
+
+<img width="1004" alt="three_pages" src="https://user-images.githubusercontent.com/112868363/195347512-ce1e2e33-d7b6-4e1c-a707-275c5782b94d.png">
+
 ## Requirements
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)

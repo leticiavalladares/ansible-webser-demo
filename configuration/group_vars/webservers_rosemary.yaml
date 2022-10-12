@@ -1,2 +1,5 @@
 background_color: rgb(129, 170, 133)
 title_text: Rosemary Page
+things:
+  - "spoon"
+  - "glasses"

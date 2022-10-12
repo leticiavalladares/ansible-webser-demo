@@ -10,7 +10,7 @@
 [webservers:children]
 webservers_sand
 webservers_lavender
-webserver_rosemary
+webservers_rosemary
 
 # PRIVATE KEY
 # Username - ubuntu

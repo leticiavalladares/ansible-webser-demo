@@ -18,7 +18,8 @@
 
     - name: Copy template file to the webserver
       template:
-        src: "mytemplates/index.html.j2"
+        src: "templates/index.html.j2"
+        dest: "/var/www/html/index.html"
 
     - name: Restart the apache2
       service:
