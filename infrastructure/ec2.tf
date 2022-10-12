@@ -1,4 +1,6 @@
 resource "aws_instance" "pub_server" {
+  count = 3
+
   ami                    = data.aws_ami.ubuntu_image.id
   instance_type          = var.instance_type
   subnet_id              = data.aws_subnet.pub_subnet.id
@@ -6,7 +8,7 @@ resource "aws_instance" "pub_server" {
   key_name               = var.keypair
 
   tags = {
-      Name = "pub-server"
+      Name = "pub-server-${count.index + 1}"
   }
 
   depends_on = [
