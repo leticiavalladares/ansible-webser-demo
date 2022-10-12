@@ -1,0 +1,13 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: Update the apt-get of the machine
+      apt:
+        update_cache: yes
+
+    - name: Install apache2
+      apt:
+        name: apache2
+        state: present
+      
