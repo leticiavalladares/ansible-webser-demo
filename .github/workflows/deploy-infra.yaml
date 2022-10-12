@@ -1,4 +1,4 @@
-name: Terraform deployment for movie
+name: Tf Ansible Demo
 on: [push]
 jobs:
   terraform:
